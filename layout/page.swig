@@ -67,6 +67,7 @@
       {#####################}
     </div>
     {% include '_partials/breadcrumb.swig' %}
+
     {######################}
     {### END PAGE BLOCK ###}
     {######################}
@@ -77,7 +78,7 @@
 {% block sidebar %}
   {{ sidebar_template.render(false) }}
 {% endblock %}
-
 {% block script_extra %}
   {% include '_scripts/pages/post-details.swig' %}
 {% endblock %}
+
